@@ -1,0 +1,21 @@
+.main{
+    height: 85px;
+}
+.options{
+    width: 280px;
+}
+.logo{
+    width: 50%;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.info{
+    font-weight:bolder;
+    font-size: 12px;
+}

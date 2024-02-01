@@ -1,0 +1,19 @@
+.new{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.icon{
+    margin-top: 3px;
+}

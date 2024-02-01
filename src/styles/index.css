@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
