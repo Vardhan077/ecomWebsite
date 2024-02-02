@@ -8,7 +8,7 @@ import axios from 'axios';
 import { IoFilterSharp } from "react-icons/io5";
 
 class Products extends Component{
-    state = {list:[],category:'Clothes'}
+    state = {list:[],category:'Shoes'}
 
 
     componentDidMount() {
