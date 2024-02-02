@@ -7,7 +7,7 @@ import '../styles/home.css';
 import { useState } from 'react';
 import Products from './Products';
 
-export default function Home(){
+const Home  = () =>{
     const [cond,setCond] = useState(true);
     const [query,setQuery] =useState();
     const handleChange = (val) =>{
@@ -33,3 +33,6 @@ export default function Home(){
         </div>
     );
 }
+
+
+export default Home

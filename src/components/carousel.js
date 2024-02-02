@@ -4,7 +4,7 @@ import one from '../assets/b1.png';
 import two from '../assets/b2.png';
 import three from '../assets/b3.png';
 
-function App() {
+const Carousel = () => {
   const slides = [
     {
       url: one,
@@ -63,4 +63,4 @@ function App() {
   );
 }
 
-export default App;
+export default Carousel;

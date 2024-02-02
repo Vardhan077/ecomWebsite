@@ -3,7 +3,7 @@ import { ShoppingBag, UserRound, Shirt,} from 'lucide-react';
 import React from 'react';
 
 
-export default function navbar(){
+const Navbar = ()=>{
     return(
         <div className="main flex flex-row items-center justify-around">
             <div className="logo flex flex-row items-center">
@@ -26,3 +26,5 @@ export default function navbar(){
         </div> 
     )
 }
+
+export default Navbar
