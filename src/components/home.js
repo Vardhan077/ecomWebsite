@@ -1,13 +1,13 @@
-import Navbar from '../components/navbar';
-import Carousel from '../components/carousel';
-import Searchbar from '../components/search';
-import Text from '../components/text';
-import Footer from '../components/footer';
+import Navbar from './navbar';
+import Carousel from './carousel';
+import Searchbar from './search';
+import Text from './text';
+import Footer from './footer';
 import '../styles/home.css';
 import { useState } from 'react';
 import Products from './Products';
 
-const Home  = () =>{
+const Home = () =>{
     const [cond,setCond] = useState(true);
     const [query,setQuery] =useState();
     const handleChange = (val) =>{
@@ -33,6 +33,5 @@ const Home  = () =>{
         </div>
     );
 }
-
 
 export default Home

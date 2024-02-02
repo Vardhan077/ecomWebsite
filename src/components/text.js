@@ -1,6 +1,6 @@
 import React from "react";
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
-const text = () =>{
+const Text = () =>{
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [text] = useTypewriter({
         words:['New Fashion','Designs','more..'],
@@ -26,4 +26,4 @@ const text = () =>{
     );
 }
 
-export default text
+export default Text

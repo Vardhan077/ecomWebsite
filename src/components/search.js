@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchComponent = ({handleChange}) => {
+const SearchComponent = ({handleChange}) =>{
     return (
         <div className="flex justify-center items-center">
             <div className="flex space-x-2">

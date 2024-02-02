@@ -3,7 +3,7 @@ import { ShoppingBag, UserRound, Shirt,} from 'lucide-react';
 import React from 'react';
 
 
-const Navbar = ()=>{
+const Navbar = () =>{
     return(
         <div className="main flex flex-row items-center justify-around">
             <div className="logo flex flex-row items-center">
