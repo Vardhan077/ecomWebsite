@@ -9,8 +9,8 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 const App = () =>(
   <BrowserRouter  basename={'/ecomWebsite/'} >
         <Routes>
-          <Route exact path='/' Component={Home}></Route>
-          <Route exact path='/products' Component={Products}></Route>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path='/products' element = {<Products/>}></Route>
         </Routes>
       </BrowserRouter>
 )

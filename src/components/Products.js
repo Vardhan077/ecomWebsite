@@ -38,6 +38,7 @@ class Products extends Component{
 
     render(){
         const {list} = this.state
+        console.log('is working')
         return(
             <div>
                 <Navbar />

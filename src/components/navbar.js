@@ -7,11 +7,11 @@ const Navbar = () =>{
     return(
         <div className="main flex flex-row items-center justify-around">
             <div className="logo flex flex-row items-center">
-                <h1 className='text-5xl font-semibold hover:font-bold hover:text-pink-600 duration-150'><a href="/">Spectre</a></h1>
+                <h1 className='text-5xl font-semibold hover:font-bold hover:text-pink-600 duration-150'><a href="/ecomWebsite/">Spectre</a></h1>
             </div>
             <div className="options flex flex-row justify-around">
                 <div className="hover:font-bold hover:text-pink-600 duration-150 item">
-                    <div className='pic mb-1'><a href="/products"><Shirt/></a></div>
+                    <div className='pic mb-1'><a href="/ecomWebsite/products"><Shirt/></a></div>
                     <div><p className='info'>Products</p></div>
                 </div>
                 <div className="hover:font-bold hover:text-pink-600 duration-150 item profile">
