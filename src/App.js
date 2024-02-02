@@ -7,7 +7,7 @@ import Products from './components/Products';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 const App = () =>(
-  <BrowserRouter  basename={'/ecomWebsite/'} >
+  <BrowserRouter  basename={'/ecomWebsite'} >
         <Routes>
           <Route exact path='/' element={<Home />}></Route>
           <Route exact path='/products' element = {<Products/>}></Route>
